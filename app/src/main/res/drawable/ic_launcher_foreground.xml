@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Watch straps (lugs), kept inside the 66dp safe zone -->
+    <path
+        android:pathData="M46,26 L62,26 L60,38 L48,38 Z"
+        android:fillColor="#FFD0BCFF" />
+    <path
+        android:pathData="M46,82 L62,82 L60,70 L48,70 Z"
+        android:fillColor="#FFD0BCFF" />
+    <!-- Watch case -->
+    <path
+        android:pathData="M54,20 m-21,0 a21,21 0 1,0 42,0 a21,21 0 1,0 -42,0"
+        android:fillColor="#FFEDE7FF" />
+    <path
+        android:pathData="M54,54 m-21,0 a21,21 0 1,0 42,0 a21,21 0 1,0 -42,0"
+        android:fillAlpha="0"
+        android:strokeColor="#00000000" />
+    <path
+        android:pathData="M54,54 m-24,0 a24,24 0 1,0 48,0 a24,24 0 1,0 -48,0"
+        android:fillColor="#FFEDE7FF" />
+    <!-- Watch face -->
+    <path
+        android:pathData="M54,54 m-19,0 a19,19 0 1,0 38,0 a19,19 0 1,0 -38,0"
+        android:fillColor="#FF1B1035" />
+    <!-- Hour + minute hands -->
+    <path
+        android:pathData="M54,54 L54,41 L56,41 L56,54 Z"
+        android:fillColor="#FFEDE7FF" />
+    <path
+        android:pathData="M54,54 L66,50 L67,53 L55,56 Z"
+        android:fillColor="#FFEDE7FF" />
+    <!-- Center pin -->
+    <path
+        android:pathData="M54,54 m-2.4,0 a2.4,2.4 0 1,0 4.8,0 a2.4,2.4 0 1,0 -4.8,0"
+        android:fillColor="#FFEDE7FF" />
+    <!-- Crown -->
+    <path
+        android:pathData="M73,51 L77,51 L77,57 L73,57 Z"
+        android:fillColor="#FFEDE7FF" />
+</vector>
